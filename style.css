@@ -1,7 +1,7 @@
 body{
     font-family: "roboto", sans-serif;
     width: 1440px;
-    height: 1880;
+    height: 1880px;
 }
 header{
     display: flex;
@@ -45,7 +45,26 @@ nav li{
     border-radius: 10px;
 }
 
-#iconitems{
+#iconmoney{
+    border : 2px solid #DEEBFF;
+    border-radius: 10px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+#iconchild{
+    border : 2px solid #DEEBFF;
+    border-radius: 10px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+#iconheart{
+    border : 2px solid #DEEBFF;
+    border-radius: 10px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+#iconanimal{
     border : 2px solid #DEEBFF;
     border-radius: 10px;
     background-color: #DEEBFF;
@@ -101,11 +120,11 @@ nav li{
     color:#0065FC;
 }
 
-#text-accomodation{
+.text-accomodation{
     margin-left:8px;
 }
 
-.aubergelacannebiere-card{
+#aubergelacannebiere-card{
     border: 1px;
     border-radius: 10px 10px 10px 10px;
     background-color: white;
@@ -116,7 +135,7 @@ nav li{
     margin: 10px 10px 10px 0;
 }
 
-.aubergelacannebiere-image{
+#aubergelacannebiere-image{
     width: 145px;
     height:70px;
     border-radius: 10px 10px 0 0;
@@ -124,7 +143,7 @@ nav li{
     object-fit: cover;
 }
 
-.hotelduport-card{
+#hotelduport-card{
     border: 1px;
     border-radius: 10px 10px 10px 10px;
     background-color: white;
@@ -135,7 +154,7 @@ nav li{
     margin: 10px 10px 10px 10px;
 }
 
-.hotelduport-image{
+#hotelduport-image{
     width: 145px;
     height: 70px;
     border-radius: 10px 10px 0 0;
@@ -143,7 +162,7 @@ nav li{
     object-fit: cover;
 }
 
-.hotellesmouettes-card{
+#hotellesmouettes-card{
     border: 1px;
     border-radius: 10px 10px 10px 10px;
     background-color: white;
@@ -154,7 +173,7 @@ nav li{
     margin: 10px 10px 10px 10px;
 }
 
-.hotellesmouettes-image{
+#hotellesmouettes-image{
     width: 145px;
     height: 70px;
     border-radius: 10px 10px 0 0;
@@ -162,7 +181,7 @@ nav li{
     object-fit: cover;
 }
 
-.hoteldelamer-card{
+#hoteldelamer-card{
     border: 1px;
     border-radius: 10px 10px 10px 10px;
     background-color: white;
@@ -173,7 +192,7 @@ nav li{
     margin: 10px 10px 10px 0;
 }
 
-.hoteldelamer-image{
+#hoteldelamer-image{
     width: 145px;
     height: 70px;
     border-radius: 10px 10px 0 0;
@@ -181,7 +200,7 @@ nav li{
     object-fit: cover;
 }
 
-.aubergelepanier-card{
+#aubergelepanier-card{
     border: 1px;
     border-radius: 10px 10px 10px 10px;
     background-color: white;
@@ -192,7 +211,7 @@ nav li{
     margin: 10px 10px 10px 10px;
 }
 
-.aubergelepanier-image{
+#aubergelepanier-image{
     width: 145px;
     height: 70px;
     border-radius: 10px 10px 0 0;
@@ -200,7 +219,7 @@ nav li{
     object-fit: cover;
 }
 
-.hotelchezamina-card{
+#hotelchezamina-card{
     border: 1px;
     border-radius: 10px 10px 10px 10px;
     background-color: white;
@@ -211,7 +230,7 @@ nav li{
     margin: 10px 10px 10px 10px;
 }
 
-.hotelchezamina-image{
+#hotelchezamina-image{
     width: 145px;
     height: 70px;
     border-radius: 10px 10px 0 0;
