@@ -41,34 +41,43 @@ nav li{
 }
 .iconfamily{
     margin : 0 20px 0 20px;
-    border : 2px solid #DEEBFF;
-    border-radius: 10px;
+    border : 2px solid #F2F2F2;
+    border-radius: 15px;
+    height: 22px;
 }
 
 #iconmoney{
     border : 2px solid #DEEBFF;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #DEEBFF;
     color: #0065FC;
+    height: 20px;
+    width: 20px;
 }
 
 #iconchild{
     border : 2px solid #DEEBFF;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #DEEBFF;
     color: #0065FC;
+    height: 20px;
+    width: 20px;
 }
 #iconheart{
     border : 2px solid #DEEBFF;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #DEEBFF;
     color: #0065FC;
+    height: 20px;
+    width: 20px;
 }
 #iconanimal{
     border : 2px solid #DEEBFF;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #DEEBFF;
     color: #0065FC;
+    height: 20px;
+    width: 20px;
 }
 
 #filter{
@@ -79,20 +88,6 @@ nav li{
     border : 2px #DEEBFF solid;
     border-radius: 15px;
 }
-#economy{
-    margin-right: 20px;
-
-}
-#family{
-    margin-right: 20px;
-}
-#romance{
-    margin-right: 20px;
-}
-#pet{
-    margin-right: 20px;
-
-}
 #big-box-accomodation{
     display: flex;
     justify-content: space-around;
@@ -101,7 +96,7 @@ nav li{
     height: 450px;
 }
 #box-accomodation{
-    background-color:#DEEBFF;
+    background-color:#F2F2F2;
     padding: 20px;
     border-radius: 0 15px 15px 0;
 }
@@ -243,7 +238,7 @@ nav li{
 }
 
 aside{
-    background-color:#DEEBFF;
+    background-color:##F2F2F2;
     width: 425px;
     height: 410px;
     padding: 20px;
@@ -437,7 +432,7 @@ aside{
 footer{
     width: 1430px;
     height: 215px;
-    background-color:#DEEBFF;
+    background-color:#F2F2F2;
     display: flex;
     justify-content:space-around;
 }
