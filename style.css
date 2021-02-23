@@ -1,6 +1,3 @@
-#container{
-
-}
 body{
     font-family: "roboto", sans-serif;
     width: 100%;
@@ -8,6 +5,7 @@ body{
     height: 1880px;
     margin-left: 30px;
 }
+/*Header*/
 header{
     display: flex;
     justify-content: space-between;
@@ -24,7 +22,7 @@ nav ul{
 nav li{
     margin: 10px 10px 10px 10px;
 }
-
+/*Présentation, recherche, filter et information*/
 #nav-accomodation{
     border-top: 2px solid #0065FC;
     color: #0065FC;
@@ -139,18 +137,24 @@ nav li{
     border-radius: 15px;
 }
 
-#information {
+#information{
+    display: flex;
+    align-items: center;
+}
+
+#icon-information{
     height: 25px;
-    width: 25;
+    width: 25px;
     border: 2px solid #F2F2F2;
     border-radius: 18px;
-    padding-left: 13px;
-    padding-right: 13px;
-    padding-top: 7px;
-    padding-bottom: -20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
     color: #0065FC;
     margin-right: 10px;
+    
 }
+/*Hébergement à Marseille*/
 #big-box-accomodation{
     display: flex;
     justify-content: space-around;
@@ -299,7 +303,7 @@ nav li{
 #text-more{
     font-weight: bold;
 }
-
+/*Hébergements les plus populaires*/
 aside{
     background-color:#F2F2F2;
     width: 425px;
@@ -370,7 +374,7 @@ aside{
     margin-right: 10px;
     object-fit: cover;
 }
-
+/*Activités à Marseille*/
 #activity{
     width: 1400px;
     height: 515px;
@@ -492,7 +496,7 @@ justify-content: center;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
 }
-
+/*Footer*/
 footer{
     width: 1100px;
     height: 215px;
