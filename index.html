@@ -23,20 +23,20 @@
             </header>
             <main> <!--La partie principale. Elle contient : la présention, la recherche, les filtres, l'information, les hébergements et les activités-->
                 <section id="presentation">
-                    <div id="présentation-introduction">
+                    <div id="presentation-introduction">
                         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                         <p>En plein centre ville ou en pleine nature</p>   
                     </div>
                     <form id="presentation-research">
                         <i id="mapmarker" class="fas fa-map-marker-alt"></i>
-                        <input type="text" name="City" value="Marseille, France"/>
+                        <input id="box-research" type="text" name="City" value="Marseille, France"/>
                         <input id="research" type="submit" value="Rechercher" />
                     </form>
 
                     <div > 
                         <ul id="presentation-filter">
                             <li> <div id="text-filter"> Filtres </div></li>
-                            <li class="iconfamily"><i id="iconmoney" class="fas fa-money-bill-wave"></i>Economique</li>
+                            <li class="iconfamily"><i id="iconmoney" class="fas fa-money-bill-wave"></i>Économique</li>
                             <li class="iconfamily"><i id="iconchild" class="fas fa-child"></i>Familiale</li>
                             <li class="iconfamily"><i id="iconheart" class="fas fa-heart"></i>Romantique</li>
                             <li class="iconfamily"><i id="iconanimal" class="fas fa-dog"></i>Animaux autorisés</li>
@@ -53,7 +53,7 @@
                 <section id="box-accomodation">     
                     <h1 id="accomodation"> Hébergement à Marseille</h1>
                     <div id="container-hotel">
-                        <a href="#">
+                        <a class="link" href="#">
                         <figure id="aubergelacannebiere-card">
                             <img id ="aubergelacannebiere-image" src="images/hebergements/4_small/aubergelacannebiere_small.jpg" alt="Auberge la Cannebière"/>
                             <figcaption class="text-accomodation">
@@ -69,7 +69,7 @@
                             </figcaption>
                         </figure>  
                         </a>                          
-                        <a href="#">
+                        <a class="link" href="#">
                         <figure id="hotelduport-card"> 
                             <img id="hotelduport-image" src="images/hebergements/4_small/hotelduport_small.jpg" alt="Chambre à l'hôtel du Port"/>
                             <figcaption class="text-accomodation">
@@ -85,7 +85,7 @@
                             </figcaption>
                         </figure>
                         </a>
-                        <a href="#">
+                        <a class="link" href="#">
                         <figure id="hotellesmouettes-card">
                             <img id="hotellesmouettes-image" src="images/hebergements/4_small/hotellesmouettes_small.jpg" alt="Chambre à l'hôtel Les Mouettes"/>
                             <figcaption class="text-accomodation">
@@ -101,7 +101,7 @@
                             </figcaption>
                         </figure>
                         </a>
-                        <a href="#">
+                        <a class="link" href="#">
                         <figure id="hoteldelamer-card">
                             <img id="hoteldelamer-image" src="images/hebergements/4_small/hoteldelamer_small.jpg" alt="Chambre à l'hôtel de la mer"/>
                             <figcaption class="text-accomodation">
@@ -117,7 +117,7 @@
                             </figcaption>            
                         </figure>
                         </a>
-                        <a href="#">
+                        <a class="link" href="#">
                         <figure id="aubergelepanier-card">
                             <img id="aubergelepanier-image" src="images/hebergements/4_small/aubergelepanier_small.jpg" alt="Chambre à l'Auberge Le Panier"/>
                             <figcaption class="text-accomodation">
@@ -133,7 +133,7 @@
                             </figcaption>
                         </figure>
                         </a>
-                        <a href="#">
+                        <a class="link" href="#">
                         <figure id="hotelchezamina-card">
                             <img id="hotelchezamina-image" src="images/hebergements/4_small/hotelchezamina_small.jpg" alt="Chambre à l'Hôtel chez Amina"/>
                             <figcaption class="text-accomodation">
@@ -157,13 +157,13 @@
                         <h1 id="accomadation-popular"> Les plus populaires</h1>
                         <div id="icon-chart"><i class="fas fa-chart-line"></i></div>
                     </div>
-                    <a href="#">
+                    <a class="link" href="#">
                     <figure class="hotellesoleildumatin-card">
                         <img class="hotellesoleildumatin-image" src="images/hebergements/4_small/hotellesoleildumatin_small.jpg" alt="Chambre à l'Hôtel Le soleil du matin"/>
-                        <figcaption>
-                        <h2>Hôtel Le soleil du matin</h2>
-                        <p>Nuits à partir de 128€</p>
-                        <ul class="stars">
+                        <figcaption class="text-accomodation-popular">
+                        <h2 class="text-hotel-popular">Hôtel Le soleil du matin</h2>
+                        <p class="text-hotel-popular">Nuits à partir de 128€</p>
+                        <ul class="stars-popular">
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
@@ -173,13 +173,13 @@
                     </figcaption>
                     </figure>  
                     </a>  
-                    <a href="#">
+                    <a class="link" href="#">
                     <figure class="aucoeurdeleauchambresdhotes-card">
                         <img class="aucoeurdeleauchambresdhotes-image" src="images/hebergements/4_small/aucoeurdeleauchambresdhotes_small.jpg" alt="Chambre Au coeur de l'eau Chambres d'hôtes"/>
                         <figcaption>
-                        <h2>Au coeur de l'eau Chambres d'hôtes</h2>
-                        <p>Nuits à partir de 71€</p>
-                        <ul class="stars">
+                        <h2 class="text-hotel-popular">Au coeur de l'eau Chambres d'hôtes</h2>
+                        <p class="text-hotel-popular">Nuits à partir de 71€</p>
+                        <ul class="stars-popular">
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
@@ -189,13 +189,13 @@
                     </figcaption>
                     </figure>
                     </a>
-                    <a href="#">
+                    <a class="link" href="#">
                     <figure class="hoteltoutbleuetblanc-card">
                         <img class="hoteltoutbleuetblanc-image" src="images/hebergements/4_small/hoteltoutbleuetblanc_small.jpg" alt="Chambre à l'Hôtel Tout bleu et Blanc"/>
                         <figcaption>
-                        <h2>Hôtel Tout bleu et Blanc</h2>
-                        <p>Nuits à partir de 68€</p>
-                        <ul class="stars">
+                        <h2 class="text-hotel-popular">Hôtel Tout bleu et Blanc</h2>
+                        <p class="text-hotel-popular">Nuits à partir de 68€</p>
+                        <ul class="stars-popular">
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
