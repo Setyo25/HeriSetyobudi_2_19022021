@@ -20,6 +20,7 @@ nav ul{
 }
 nav li{
     margin: 10px 10px 10px 10px;
+    font-size: 16px;
 }
 /*Présentation, recherche, filter et information*/
 #nav-accomodation{
@@ -35,7 +36,7 @@ nav li{
 }
 
 h1{
-    font-size: 18px;
+    font-size: 20px;
 }
 #presentation-research{
     margin : 0;
@@ -46,8 +47,8 @@ h1{
 #mapmarker{
     background-color :#F2F2F2;
     border: 2px #F2F2F2 solid;
-    height: 28px;
-    width: 28px;
+    height: 40px;
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,8 +69,10 @@ h1{
     background-color:#0065FC;
     color: white;
     font-size: 18px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #presentation-filter{
     list-style: none;
@@ -80,19 +83,20 @@ h1{
 
 #text-filter{
     font-weight: 600;
+    font-size: 18px;
 }
 .iconfamily{
     margin : 0 20px 0 20px;
     border-top : 2px solid #F2F2F2;
     border-right : 2px solid #F2F2F2;
     border-bottom : 2px solid #F2F2F2;
-    border-radius: 15px;
-    height: 30px;
-    padding-right: 10px;
+    border-radius: 19px;
+    height: 36px;
+    padding-right: 15px;
     display: flex;
     justify-content:center;
     align-items: center;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
 }
 .iconfamily:hover{
@@ -101,58 +105,58 @@ h1{
 }
 
 #iconmoney{
-    border : 2px solid #DEEBFF;
-    border-radius: 16px;
+    border : 3px solid #DEEBFF;
+    border-radius: 19px;
     background-color: #DEEBFF;
     color: #0065FC;
-    height: 28px;
-    width: 30px;
+    height: 36px;
+    width: 38px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    font-size: 12px;
+    margin-right: 15px;
+    font-size: 14px;
     
 }
 
 #iconchild{
-    border : 2px solid #DEEBFF;
-    border-radius: 16px;
+    border : 3px solid #DEEBFF;
+    border-radius: 19px;
     background-color: #DEEBFF;
     color: #0065FC;
-    height: 28px;
-    width: 30px;
+    height: 36px;
+    width: 38px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    font-size: 12px;
+    margin-right: 15px;
+    font-size: 14px;
 }
 #iconheart{
-    border : 2px solid #DEEBFF;
-    border-radius: 16px;
+    border : 3px solid #DEEBFF;
+    border-radius: 19px;
     background-color: #DEEBFF;
     color: #0065FC;
-    height: 28px;
-    width: 30px;
+    height: 36px;
+    width: 38px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    font-size: 12px;
+    margin-right: 15px;
+    font-size: 14px;
 }
 #iconanimal{
-    border : 2px solid #DEEBFF;
-    border-radius: 16px;
+    border : 3px solid #DEEBFF;
+    border-radius: 19px;
     background-color: #DEEBFF;
     color: #0065FC;
-    height: 28px;
-    width: 30px;
+    height: 36px;
+    width: 38px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    font-size: 12px;
+    margin-right: 15px;
+    font-size: 14px;
 }
 
 #filter{
@@ -208,8 +212,15 @@ h1{
     justify-content:start;
     list-style: none;
     padding: 0px;
-    color:#0065FC;
     font-size: 12px;
+}
+
+.star-blue{
+    color:#0065FC;
+}
+
+.star-grey{
+    color: #F2F2F2;
 }
 
 .text-accomodation{
@@ -564,15 +575,12 @@ footer{
     height: 215px;
     background-color:#F2F2F2;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     margin-top: 40px;
-    padding-top: 25px;
-    margin-left: -30px;
-    
+    padding-top: 25px;    
 }
 
 .about{
-    margin-left: -140px;
     list-style: none;
 }
 
