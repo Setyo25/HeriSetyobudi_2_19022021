@@ -4,13 +4,33 @@ body{
 }
 /*Header*/
 
+#container{
+    margin-left: 30px;
+    margin-right: 30px;
+}
 header{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-#logo{
+
+#nav-bar{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-around;
+    align-items: center;
+}
+#logo {
     height: 40px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 nav ul{
     display: flex;
@@ -21,19 +41,29 @@ nav li{
     margin: 10px 10px 10px 10px;
     font-size: 16px;
 }
+
+#inscription{
+    text-decoration: none;
+    color:#0065F ;
+}
+
 /*Présentation, recherche, filter et information*/
 #nav-accomodation{
     border-top: 2px solid #0065FC;
     color: #0065FC;
     padding-top: 30px;
     text-decoration: none;
-
 }
 
+#nav-accomodation :visited{
+    color:green;
+}
 #nav-activity{
     text-decoration: none;
 }
-
+#nav-activity:visited{
+    color: green;
+}
 h1{
     font-size: 20px;
 }
@@ -198,7 +228,9 @@ h1{
     border-radius: 15px 15px 15px 15px;
     width: 60%;
 }
-
+#box-accomodation:visited{
+    color: green;
+}
 #container-hotel{
     display: flex;
     flex-wrap:wrap;
@@ -236,12 +268,13 @@ h1{
 }
 #aubergelacannebiere-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
     background-color: white;
+    box-shadow:6px 6px 6px #DCDCDC;
     font-size: 13px;
     width: 250px;
     height: 200px;  
-    padding: 5px 5px 5px 5px;
+    padding: 5px 5px 15px 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -249,19 +282,20 @@ h1{
 #aubergelacannebiere-image{
     width: 100%;
     height: 60%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     margin: 0px;
     object-fit: cover;
 }
 
 #hotelduport-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
     background-color: white;
+    box-shadow:6px 6px 6px  #DCDCDC;
     font-size: 13px;
     width: 250px;
     height: 200px;  
-    padding: 5px 5px 5px 5px;
+    padding: 5px 5px 15px 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -269,19 +303,20 @@ h1{
 #hotelduport-image{
     width: 100%;
     height: 60%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     margin: 0px;
     object-fit: cover;
 }
 
 #hotellesmouettes-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
     background-color: white;
+    box-shadow:6px 6px 6px  #DCDCDC;
     font-size: 13px;
     width: 250px;
     height: 200px;  
-    padding: 5px 5px 5px 5px;
+    padding: 5px 5px 15px 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -289,19 +324,20 @@ h1{
 #hotellesmouettes-image{
     width: 100%;
     height: 60%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     margin: 0px;
     object-fit: cover;
 }
 
 #hoteldelamer-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
     background-color: white;
+    box-shadow:6px 6px 6px  #DCDCDC;
     font-size: 13px;
     width: 250px;
     height: 200px;  
-    padding: 5px 5px 5px 5px;
+    padding: 5px 5px 15px 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -309,19 +345,20 @@ h1{
 #hoteldelamer-image{
     width: 100%;
     height: 60%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     margin: 0px;
     object-fit: cover;
 }
 
 #aubergelepanier-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
     background-color: white;
+    box-shadow:6px 6px 6px  #DCDCDC;
     font-size: 13px;
     width: 250px;
     height: 200px;  
-    padding: 5px 5px 5px 5px;
+    padding: 5px 5px 15px 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -329,19 +366,20 @@ h1{
 #aubergelepanier-image{
     width: 100%;
     height: 60%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     margin: 0px;
     object-fit: cover;
 }
 
 #hotelchezamina-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
     background-color: white;
+    box-shadow:6px 6px 6px  #DCDCDC;
     font-size: 13px;
     width: 250px;
     height: 200px;  
-    padding: 5px 5px 5px 5px;
+    padding: 5px 5px 15px 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -349,7 +387,7 @@ h1{
 #hotelchezamina-image{
     width: 100%;
     height: 60%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     margin: 0px;
     object-fit: cover;
 }
@@ -366,7 +404,9 @@ aside{
     border-radius: 15px 15px 15px 15px;
     margin-left: 20px;
 }
-
+aside:visited{
+    color: green;
+}
 #icon-chart{
     font-size: 20px;
 }
@@ -397,8 +437,9 @@ aside{
 }
 .hotellesoleildumatin-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px ;
+    border-radius: 15px 15px 15px 15px;
     background-color: white ;
+    box-shadow:6px 6px 6px  #DCDCDC;
     font-size: 13px;
     width: 90%;
     height: 150px;
@@ -409,15 +450,16 @@ aside{
 .hotellesoleildumatin-image{
     width: 34%;
     height: 100%;
-    border-radius: 10px 0 0 10px;
+    border-radius: 15px 0 0 15px;
     margin-right: 10px;
     object-fit: cover;
 }
 
 .aucoeurdeleauchambresdhotes-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px ;
+    border-radius: 15px 15px 15px 15px;
     background-color: white ;
+    box-shadow:6px 6px 6px  #DCDCDC;
     font-size: 13px;
     width: 90%;
     height: 150px;
@@ -428,15 +470,16 @@ aside{
 .aucoeurdeleauchambresdhotes-image{
     width: 34%;
     height: 100%;
-    border-radius: 10px 0 0 10px;
+    border-radius: 15px 0 0 15px;
     margin-right: 10px;
     object-fit: cover;
 }
 
 .hoteltoutbleuetblanc-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px ;
+    border-radius: 15px 15px 15px 15px;
     background-color: white ;
+    box-shadow:6px 6px 6px  #DCDCDC;
     font-size: 13px;
     width: 90%;
     height: 150px;
@@ -447,13 +490,15 @@ aside{
 .hoteltoutbleuetblanc-image{
     width: 34%;
     height: 100%;
-    border-radius: 10px 0 0 10px;
+    border-radius: 15px 0 0 15px;
     margin-right: 10px;
     object-fit: cover;
 }
 /*Activités à Marseille*/
 #activity{
     width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 #box-activity{
     display: flex;
@@ -473,109 +518,109 @@ aside{
 
 .vieuxport-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px ;
+    border-radius: 15px 15px 15px 15px;
     background-color: white ;
     font-size: 12px;
     width: 300px;
     height: 400px;
     padding: 5px 5px 5px 5px;
-    box-shadow:1px 1px 1px 1px #F2F2F2;
+    box-shadow:6px 6px 6px  #F2F2F2;
     margin: 10px;
 }
 .vieuxport-image{
     width: 300px;
     height: 350px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
 
 .fortdepomegues-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px ;
+    border-radius: 15px 15px 15px 15px;
     background-color: white ;
     font-size: 12px;
     width: 300px;
     height: 200px; 
     padding: 5px 5px 5px 5px;
-    box-shadow:1px 1px 1px 1px #F2F2F2;
+    box-shadow:6px 6px 6px  #F2F2F2;
     margin: 10px;
 }
 .fortdepomegues-image{
     width: 300px;
     height: 150px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
 
 .ilesdufrioul-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px ;
+    border-radius: 15px 15px 15px 15px;
     background-color: white ;
     font-size: 12px;
     width: 300px;
     height: 165px;
     padding: 5px 5px 5px 5px;
-    box-shadow:1px 1px 1px 1px #F2F2F2;
+    box-shadow:6px 6px 6px  #F2F2F2;
     margin: 10px;
 }
 .ilesdufrioul-image{
     width: 300px;
     height: 120px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
 
 .parcnationaldescalanques-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px ;
+    border-radius: 15px 15px 15px 15px;
     background-color: white ;
     font-size: 12px;
     width: 300px;
     height: 400px;
     padding: 5px 5px 5px 5px;
-    box-shadow:1px 1px 1px 1px #F2F2F2;
+    box-shadow:6px 6px 6px  #F2F2F2;
     margin: 10px;
 }
 .parcnationaldescalanques-image{
     width: 300px;
     height: 350px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
 
 .notredamedelagarde-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px ;
+    border-radius: 15px 15px 15px 15px;
     background-color: white ;
     font-size: 12px;
     width: 300px;
     height: 182px; 
     padding: 5px 5px 5px 5px;
-    box-shadow:1px 1px 1px 1px #F2F2F2;
+    box-shadow:6px 6px 6px  #F2F2F2;
     margin: 10px;
 }
 .notredamedelagarde-image{
     width: 300px;
     height: 130px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
 
 .parclongchamp-card{
     border: 1px;
-    border-radius: 10px 10px 10px 10px ;
+    border-radius: 15px 15px 15px 15px;
     background-color: white ;
     font-size: 12px;
     width: 300px;
     height: 182px; 
     padding: 5px 5px 5px 5px;
-    box-shadow:1px 1px 1px 1px #F2F2F2;
+    box-shadow:6px 6px 6px  #F2F2F2;
     margin: 10px;
 }
 .parclongchamp-image{
     width: 300px;
     height: 130px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
 /*Footer*/
@@ -604,3 +649,4 @@ footer ul{
 footer li{
     margin-top: 10px;
 }
+
