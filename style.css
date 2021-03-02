@@ -9,21 +9,25 @@ body{
     margin-right: 30px;
 }
 header{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    
 }
 
-#nav-bar{
+#nav-bar-inscription{
     display: flex;
     flex-direction:row-reverse;
-    justify-content:space-around;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+#nav-bar{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
     align-items: center;
 }
 #logo {
     height: 40px;
+    position:absolute;
 }
 
 nav{
@@ -626,7 +630,6 @@ aside:visited{
 /*Footer*/
 footer{
     width: 100%;
-    height: 215px;
     background-color:#F2F2F2;
     display: flex;
     justify-content:space-around;
@@ -650,3 +653,98 @@ footer li{
     margin-top: 10px;
 }
 
+/*Règles pour Smartphone à partir d'ici*/
+
+@media all and (max-device-width: 480px)
+{
+    #container{
+        width: auto;
+        margin:none;
+    }
+
+    header{
+        
+    }
+
+    #nav-bar-inscription{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #nav-bar{
+        width:100%;
+        padding: 0px;
+        margin:0px
+    }
+    
+    nav ul{
+        width: 100%;
+        justify-content: space-between;
+        margin:0px;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+    #inscription{
+        display: flex;
+        justify-content:flex-end;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #0065FC;
+    }
+    #nav-accomodation{
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
+        text-decoration: none;
+        padding-top: 0px;
+        border-top: none;
+        width: 100%;
+        margin-left: 40px;
+    }
+    
+    #nav-activity{
+        border-bottom: 2px solid #F2F2F2;
+        text-decoration: none;
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    
+    #presentation-filter{
+        flex-wrap: wrap;
+    }
+
+    #text-filter{
+        margin-right: 200px;
+    }
+    .iconfamily{
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    #big-box-accomodation{
+        flex-wrap: wrap;
+        margin-right: 0px;
+    }
+    #box-accomodation{
+        order:2;
+    }
+    aside{
+        width: 100%;
+        
+    }
+    .box-accomodation-popular{
+        width: 100%;
+        border-radius: none;
+        margin-left: 0px;
+        padding:0px
+    }
+
+    #box-activity{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+}
