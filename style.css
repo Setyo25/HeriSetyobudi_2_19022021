@@ -109,7 +109,7 @@ h1{
 }
 
 #research-button{
-    opacity: 0;
+    display: none;
 }
 #presentation-filter{
     list-style: none;
@@ -138,7 +138,7 @@ h1{
 }
 .iconfamily:hover{
     text-decoration: underline;
-    color: lightsalmon;
+    color:#DEEBFF;
 }
 
 #iconmoney{
@@ -309,7 +309,7 @@ aside{
     margin-left: 20px;
 }
 aside:visited{
-    color: green;
+    color:#F2F2F2;
 }
 #icon-chart{
     font-size: 20px;
@@ -500,12 +500,18 @@ footer li{
 @media all and (max-device-width: 480px)
 {
     #container{
-        width: auto;
-        margin:none;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
-    header{
-        
+    body{
+        margin:0px
+    }
+
+    #logo{
+        padding-left: 20px;
+        padding-top: 20px;
     }
 
     #nav-bar-inscription{
@@ -521,36 +527,53 @@ footer li{
     
     nav ul{
         width: 100%;
-        justify-content: space-between;
+        justify-content: space-around;
         margin:0px;
         padding-left: 0px;
         margin-top: 20px;
     }
-    #inscription{
+
+    nav ul li{
+        width: 50%;
+        border-bottom: blue 5px solid;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 10px;
         display: flex;
-        justify-content:flex-end;
-        margin-top: 10px;
+        justify-content: center;
+    }
+       
+
+    nav ul :nth-child(2){
+        width: 50%;
+        border-bottom:#F2F2F2 5px solid;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+     
+    #inscription{
+        padding-right: 20px;
+        padding-top: 30px;
         font-weight: bold;
         color: #0065FC;
     }
     #nav-accomodation{
-        border-bottom: 2px solid #0065FC;
         color: #0065FC;
         text-decoration: none;
         padding-top: 0px;
         border-top: none;
-        width: 100%;
-        margin-left: 40px;
+        width: 50%;
+        margin-left: 0px;
+        border-bottom: none;
     }
     
-    #nav-activity{
-        border-bottom: 2px solid #F2F2F2;
-        text-decoration: none;
-        width: 100%;
-        margin-right: 50px;
-    }
+    
+    
     #research{
-        opacity: 0;
+        display:none;
     }
 
     #research-button{
@@ -582,9 +605,13 @@ footer li{
     }
     #box-accomodation{
         order:2;
+        width: 100%;
+        border-radius: 0px 0px 0px;
+        background-color: white;
     }
     aside{
         width: 100%;
+        border-radius: 0px 0px 0px 0px;
         
     }
     .card-popular{
@@ -597,6 +624,18 @@ footer li{
         border-radius: none;
         margin-left: 0px;
         padding:0px
+    }
+
+    .accomodation-card{
+        border: 1px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: white ;
+        box-shadow:6px 6px 6px  #DCDCDC;
+        font-size: 13px;
+        width: 90%;
+        height: 200px;
+        padding: 5px 5px 5px 5px;
+
     }
 
     #box-activity{
