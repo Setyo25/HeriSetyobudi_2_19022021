@@ -67,7 +67,7 @@ nav li{
     text-decoration: none;
 }
 #nav-activity:visited{
-    color:#black;
+    color: black;
 }
 h1{
     font-size: 20px;
@@ -123,6 +123,7 @@ h1{
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: -10px;
+    margin-right: 30px;
 }
 
 #presentation-filter{
@@ -315,6 +316,10 @@ h1{
     font-size: 18px;
 }
 /*Hébergements les plus populaires*/
+
+#big-box-accomodation{
+    width: fit-content;
+}
 aside{
     background-color:#F2F2F2;
     width: 30%;
@@ -333,7 +338,9 @@ aside:visited{
     justify-content: space-between;
     align-items: center;
 }
-
+.box-accomodation-popular{
+    width: fit-content;
+}
 .text-accomodation-popular{
     margin-left:8px;    
     display: flex;
@@ -346,6 +353,15 @@ aside:visited{
     margin-bottom: 6px;
 }
 .stars-popular{
+    display: flex;
+    justify-content:start;
+    list-style: none;
+    padding: 0px;
+    color:#0065FC;
+    font-size: 12px;
+}
+
+#stars-popular-aucoeurdeleau{
     display: flex;
     justify-content:start;
     list-style: none;
@@ -380,18 +396,8 @@ aside:visited{
 }
 #box-activity{
     display: flex;
-    justify-content: space-between;
-}
-
-#minibox-one{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-#minibox-two{
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-flow: wrap;
 }
 
 .card-activity{
@@ -399,11 +405,12 @@ aside:visited{
     border-radius: 15px 15px 15px 15px;
     background-color: white ;
     font-size: 12px;
-    width: 300px;
-    height: 400px;
+    width: 240px;
+    height: 200px;
     padding: 5px 5px 5px 5px;
     box-shadow:6px 6px 6px  #F2F2F2;
-    margin: 10px;
+    margin: 5px;
+    padding: 0px;
 }
 .card-activity img{
     width: 100%;
@@ -411,20 +418,30 @@ aside:visited{
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
+#minibox-one{
+    display: flex;
+    flex-direction: row;
+}
+
+#minibox-two{
+    display: flex;
+    flex-direction: row;
+}
 
 #fortdepomegues-card{
     border: 1px;
     border-radius: 15px 15px 15px 15px;
     background-color: white ;
     font-size: 12px;
-    width: 300px;
+    width: 240px;
     height: 200px; 
     padding: 5px 5px 5px 5px;
     box-shadow:6px 6px 6px  #F2F2F2;
-    margin: 10px;
+    margin: 5px;
+    padding: 0px;
 }
 #fortdepomegues-image{
-    width: 300px;
+    width: 100%;
     height: 150px;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
@@ -435,14 +452,15 @@ aside:visited{
     border-radius: 15px 15px 15px 15px;
     background-color: white ;
     font-size: 12px;
-    width: 300px;
+    width: 240px;
     height: 165px;
     padding: 5px 5px 5px 5px;
     box-shadow:6px 6px 6px  #F2F2F2;
-    margin: 10px;
+    margin: 5px;
+    padding: 0px;
 }
 #ilesdufrioul-image{
-    width: 300px;
+    width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
@@ -453,14 +471,15 @@ aside:visited{
     border-radius: 15px 15px 15px 15px;
     background-color: white ;
     font-size: 12px;
-    width: 300px;
+    width: 240px;
     height: 182px; 
     padding: 5px 5px 5px 5px;
     box-shadow:6px 6px 6px  #F2F2F2;
-    margin: 10px;
+    margin: 5px;
+    padding: 0px;
 }
 #notredamedelagarde-image{
-    width: 300px;
+    width: 100%;
     height: 130px;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
@@ -471,14 +490,15 @@ aside:visited{
     border-radius: 15px 15px 15px 15px;
     background-color: white ;
     font-size: 12px;
-    width: 300px;
+    width: 240px;
     height: 182px; 
     padding: 5px 5px 5px 5px;
     box-shadow:6px 6px 6px  #F2F2F2;
-    margin: 10px;
+    margin: 5px;
+    padding: 0px;
 }
 #parclongchamp-image{
-    width: 300px;
+    width: 100%;
     height: 130px;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
@@ -509,9 +529,101 @@ footer li{
     margin-top: 10px;
 }
 
+/*fin de règle Desktop*/
+/*Règles pour tablette à partir d'ici*/
+
+@media all and (min-width : 768px) and (max-width : 1024px) 
+{
+    #container{
+        width: 100%;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    
+    body{
+        margin: 0px;
+    }
+
+    #logo{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    #big-box-accomodation{
+        flex-wrap: wrap;
+        margin-right: 0px;
+    }
+    #box-accomodation{
+        order:2;
+        width: 100%;
+        border-radius: 0px 0px 0px;
+        background-color: white;
+    }
+    aside{
+        width: 100%;
+        border-radius: 0px 0px 0px 0px;
+        margin-left: 30px;
+        
+    }
+    #head-popular{
+        margin-left: 30px;
+    }
+    #icon-chart{
+        margin-right: 30px;
+    }
+    .card-popular{
+        border: 1px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: white;
+        box-shadow:6px 6px 6px #DCDCDC;
+        font-size: 12px;
+        width: 250px;
+        height: 200px;  
+        padding: 5px 5px 15px 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-popular img{
+        width: 100%;
+        height: 60%;
+        border-radius: 15px 15px 0 0;
+        margin: 0px;
+        object-fit: cover;
+    }
+
+    .text-accomodation-popular{
+        margin-left:8px;    
+    
+    }
+
+    #stars-popular-aucoeurdeleau{
+        margin-top: 0px;
+    }
+
+    .box-accomodation-popular{
+        width: 100%;
+        border-radius: 0px;
+        margin-left: 0px;
+        padding:0px;
+    }
+    #box-popular{
+        display:flex;
+        flex-direction: row;
+    }
+    #box-accomodation{
+        padding:0px;
+    }
+   
+
+}
+
+
+/*fin de règle pour tablette*/
 /*Règles pour Smartphone à partir d'ici*/
 
-@media all and (max-device-width: 480px)
+@media all and (max-device-width : 480px)
 {
     #container{
         width: 100%;
@@ -640,7 +752,7 @@ footer li{
 
     .box-accomodation-popular{
         width: 100%;
-        border-radius: none;
+        border-radius: 0px;
         margin-left: 0px;
         padding:0px
     }
