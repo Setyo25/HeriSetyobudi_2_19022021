@@ -784,10 +784,240 @@ footer li{
 
 
 /*fin de règle pour tablette*/
-
 /*Début de règle grande smartphone*/
 @media all and (min-width:481px) and (max:767px)
+{   
+    body{
+        margin:0px
+    }
+    #container{ 
+        margin-left: 30px;
+    }
 
+    #logo{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    #inscription{
+        margin-right: 30px;
+        margin-left: 10px;
+    }
+
+    #presentation-filter{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .iconfamily{
+        margin-bottom: 10px;
+    }
+    #big-box-accomodation{
+        flex-wrap: wrap;
+        margin-right: 0px;
+    }
+    #box-accomodation{
+        order:2;
+        width: 100%;
+        border-radius: 0px 0px 0px;
+        background-color: white;
+    }
+
+    #container-hotel{
+        width: 100%;
+    }
+    .accomodation-card{
+        width: 26vw;
+        height: 21vw;
+        font-size: 0.75em;
+        padding-bottom: 20px;
+    }
+
+    .stars{
+        margin-top: 20px;
+    }
+    aside{
+        width: 100%;
+        border-radius: 0px 0px 0px 0px;
+        margin-left: 30px;
+        
+    }
+    #head-popular{
+        margin-left: 30px;
+    }
+    #icon-chart{
+        margin-right: 30px;
+    }
+    .card-popular{
+        border: 1px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: white;
+        box-shadow:6px 6px 6px #DCDCDC;
+        font-size: 0.7em;
+        width: 26vw;
+        height: 30vh;  
+        padding: 5px 5px 15px 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-popular img{
+        width: 100%;
+        height: 60%;
+        border-radius: 15px 15px 0 0;
+        margin: 0px;
+        object-fit: cover;
+    }
+
+    .text-accomodation-popular{
+        margin-left:8px;    
+    
+    }
+
+    #stars-popular-aucoeurdeleau{
+        margin-top: 0px;
+    }
+
+    .box-accomodation-popular{
+        width: 100%;
+        border-radius: 0px;
+        margin-left: 0px;
+        padding:0px;
+    }
+    #box-popular{
+        display:flex;
+        flex-direction: row;
+    }
+    #box-accomodation{
+        padding:0px;
+    }
+    #activity{
+        width: 100%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .text-activity{
+        margin-top: 5px;
+    }
+    #box-activity{
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+    
+    .card-activity{
+        border: 1px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: white ;
+        font-size: 0.7rem;
+        width: 20vw;
+        height: 32vw;
+        padding: 5px 5px 5px 5px;
+        box-shadow:6px 6px 6px  #F2F2F2;
+        margin-right: 12px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .card-activity img{
+        width: 100%;
+        height: 80%;
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+    }
+    #minibox-one{
+        display: flex;
+        flex-direction: column
+    }
+    
+    #minibox-two{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #fortdepomegues-card{
+        border: 1px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: white ;
+        font-size: 0.7rem;
+        width: 21vw;
+        height: 17vw; 
+        padding: 5px 5px 5px 5px;
+        box-shadow:6px 6px 6px  #F2F2F2;
+        margin-right: 27px;
+        margin-left: 12px;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+    #fortdepomegues-image{
+        width: 100%;
+        height: 70%;
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+    }
+    
+    #ilesdufrioul-card{
+        border: 1px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: white ;
+        font-size: 0.7rem;
+        width: 21vw;
+        height: 13vw;
+        padding: 5px 5px 5px 5px;
+        box-shadow:6px 6px 6px  #F2F2F2;
+        margin-right: 27px;
+        margin-left: 12px;
+        padding: 0px;
+    }
+    #ilesdufrioul-image{
+        width: 100%;
+        height: 60%;
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+    }
+    
+    #notredamedelagarde-card{
+        border: 1px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: white ;
+        font-size: 0.6rem;
+        width: 21vw;
+        height: 15vw; 
+        padding: 5px 5px 5px 5px;
+        box-shadow:6px 6px 6px  #F2F2F2;
+        margin-right: 0px;
+        margin-left: 12px;
+        margin-bottom: 12px;
+        padding: 0px;
+    }
+    #notredamedelagarde-image{
+        width: 100%;
+        height: 10vw;
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+    }
+    
+    #parclongchamp-card{
+        border: 1px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: white ;
+        font-size: 0.7rem;
+        width: 21vw;
+        height: 15vw; 
+        padding: 5px 5px 5px 5px;
+        box-shadow:6px 6px 6px  #F2F2F2;
+        margin-right: 0px;
+        margin-left: 12px;
+        padding: 0px;
+    }
+    #parclongchamp-image{
+        width: 100%;
+        height: 10vw;
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+    }
+
+}
 
 /*Fin de règle grande smartphone*/
 /*Règles pour Smartphone à partir d'ici*/
