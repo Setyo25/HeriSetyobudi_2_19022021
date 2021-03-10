@@ -534,11 +534,17 @@ footer li{
     margin-top: 10px;
 }
 
+/*Fin de règle Desktop*/
+/*Début de règle grande tablette*/
+
 @media all and (min-width:1025) and (max-width:1285px){
     .accomodation-card{
         width: 15vw;
-        height: 20vw;
-/*fin de règle Desktop*/
+        height: 22vw;
+    }
+}
+
+/*fin de règle grande tablette*/
 /*Règles pour tablette à partir d'ici*/
 
 @media all and (min-width: 768px) and (max-width: 1024px) 
