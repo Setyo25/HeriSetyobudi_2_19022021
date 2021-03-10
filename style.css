@@ -67,7 +67,7 @@ nav li{
     text-decoration: none;
 }
 #nav-activity:visited{
-    color: black;
+    color: #000000;
 }
 h1{
     font-size: 20px;
@@ -252,7 +252,7 @@ h1{
     width: 60vw;
 }
 #box-accomodation:visited{
-    color: green;
+    color:#F2F2F2;
 }
 #container-hotel{
     display: flex;
@@ -513,7 +513,7 @@ footer{
     width: 100%;
     background-color:#F2F2F2;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     margin-top: 40px;
     padding-top: 25px;   
 }
@@ -534,10 +534,14 @@ footer li{
     margin-top: 10px;
 }
 
+@media all and (min-width:1025) and (max-width:1285px){
+    .accomodation-card{
+        width: 15vw;
+        height: 20vw;
 /*fin de règle Desktop*/
 /*Règles pour tablette à partir d'ici*/
 
-@media all and (min-width : 768px) and (max-width : 1024px) 
+@media all and (min-width: 768px) and (max-width: 1024px) 
 {   
     body{
         margin:0px
