@@ -288,6 +288,7 @@ h1{
 
 .link{
     text-decoration: none;
+    color: #000000;
 }
 .accomodation-card{
     border: 1px;
@@ -595,13 +596,14 @@ footer li{
     .accomodation-card{
         width: 26vw;
         height: 21vw;
-        font-size: 0.3em;
+        font-size: 12px;
         padding-bottom: 20px;
     }
 
     .stars{
         margin-top: 10px;
     }
+
     aside{
         width: 100%;
         border-radius: 0px 0px 0px 0px;
@@ -619,7 +621,7 @@ footer li{
         border-radius: 15px 15px 15px 15px;
         background-color: white;
         box-shadow:6px 6px 6px #DCDCDC;
-        font-size: 0.3em;
+        font-size: 12px;
         width: 26vw;
         height: 32vh;  
         padding: 5px 5px 15px 5px;
@@ -806,6 +808,9 @@ footer li{
     .stars-popular{
         font-size: 8px;
     }
+    #stars-popular-aucoeurdeleau{
+        font-size: 8px;
+    }
 
     #big-box-accomodation{
         flex-wrap: wrap;
@@ -823,7 +828,7 @@ footer li{
         width: 100%;
     }
     .accomodation-card{
-        width: 24vw;
+        width: 22vw;
         height: 21vw;
         font-size: 0.5em;
         padding-bottom: 20px;
