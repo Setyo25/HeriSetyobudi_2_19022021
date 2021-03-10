@@ -548,7 +548,7 @@ footer li{
 
 /*Règles pour tablette à partir d'ici*/
 
-@media all and (max-width: 1024px) 
+@media all and (min-width:768px) and (max-width: 1024px) 
 {   
     body{
         margin:0px
