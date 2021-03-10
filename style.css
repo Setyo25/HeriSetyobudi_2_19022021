@@ -537,17 +537,18 @@ footer li{
 /*Fin de règle Desktop*/
 /*Début de règle grande tablette*/
 
-@media all and (min-width:1025) and (max-width:1285px){
+@media all and (min-width:1025px) and (max-width:1285px){
     .accomodation-card{
-        width: 15vw;
+        width: 16vw;
         height: 22vw;
     }
 }
 
 /*fin de règle grande tablette*/
+
 /*Règles pour tablette à partir d'ici*/
 
-@media all and (min-width: 768px) and (max-width: 1024px) 
+@media all and (max-width: 1024px) 
 {   
     body{
         margin:0px
@@ -783,6 +784,12 @@ footer li{
 
 
 /*fin de règle pour tablette*/
+
+/*Début de règle grande smartphone*/
+@media all and (min-width:481px) and (max:767px)
+
+
+/*Fin de règle grande smartphone*/
 /*Règles pour Smartphone à partir d'ici*/
 
 @media all and (min-width : 320px) and (max-width : 480px)
