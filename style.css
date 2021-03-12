@@ -2,29 +2,28 @@ body{
     font-family: "roboto", sans-serif;
     width: 100%;
 }
-/*Header*/
 
 #container{
     margin-left: 30px;
     margin-right: 30px;
 }
-header{
-    
-}
+
+/* Desktop : Header*/
 
 #nav-bar-inscription{
     display: flex;
     flex-direction:row-reverse;
     justify-content:flex-start;
     align-items: center;
-
 }
+
 #nav-bar{
     display: flex;
     flex-direction:row;
     justify-content:flex-end;
     align-items: center;
 }
+
 #logo {
     height: 40px;
     position:absolute;
@@ -36,11 +35,13 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
 nav ul{
     display: flex;
     list-style: none;
     color: #0065FC;
 }
+
 nav li{
     margin: 10px 10px 10px 10px;
     font-size: 16px;
@@ -52,7 +53,8 @@ nav li{
     font-weight:bold;
 }
 
-/*Présentation, recherche, filter et information*/
+/* Desktop : Présentation, recherche, filter et information*/
+
 #nav-accomodation{
     border-top: 2px solid #0065FC;
     color: #0065FC;
@@ -63,21 +65,26 @@ nav li{
 #nav-accomodation :visited{
     color:#F2F2F2;
 }
+
 #nav-activity{
     text-decoration: none;
 }
+
 #nav-activity:visited{
     color: #000000;
 }
+
 h1{
     font-size: 20px;
 }
+
 #presentation-research{
     margin : 0;
     display: flex;
     justify-content: flex-start;
     border: none;
 }
+
 #mapmarker{
     background-color :#F2F2F2;
     border: 2px #F2F2F2 solid;
@@ -113,6 +120,7 @@ h1{
 #research-button{
     display: none;
 }
+
 #research-button{
     border: none;
     border-radius: 10px 10px 10px 10px;
@@ -152,6 +160,7 @@ h1{
     font-size: 18px;
     font-weight: 600;
 }
+
 .iconfamily:hover{
     text-decoration:underline dotted;
     color:#0065FC;
@@ -186,6 +195,7 @@ h1{
     margin-right: 15px;
     font-size: 14px;
 }
+
 #iconheart{
     border : 3px solid #DEEBFF;
     border-radius: 19px;
@@ -199,6 +209,7 @@ h1{
     margin-right: 15px;
     font-size: 14px;
 }
+
 #iconanimal{
     border : 3px solid #DEEBFF;
     border-radius: 19px;
@@ -239,12 +250,15 @@ h1{
     margin-right: 10px;
     
 }
-/*Hébergement à Marseille*/
+
+/* Desktop : Hébergement à Marseille*/
+
 #big-box-accomodation{
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
+
 #box-accomodation{
     background-color:#F2F2F2;
     padding: 20px;
@@ -254,13 +268,13 @@ h1{
 #box-accomodation:visited{
     color:#F2F2F2;
 }
+
 #container-hotel{
     display: flex;
     flex-wrap:wrap;
-    width: 61vw;
-    
-    
+    width: 61vw;    
 }
+
 .stars{
     display: flex;
     justify-content:start;
@@ -290,6 +304,7 @@ h1{
     text-decoration: none;
     color: #000000;
 }
+
 .accomodation-card{
     border: 1px;
     border-radius: 15px 15px 15px 15px;
@@ -311,13 +326,12 @@ h1{
     object-fit: cover;
 }
 
-
 #text-more{
     font-weight: 600;
     font-size: 18px;
 }
-/*Hébergements les plus populaires*/
 
+/* Desktop : Hébergements les plus populaires*/
 
 aside{
     background-color:#F2F2F2;
@@ -325,20 +339,25 @@ aside{
     padding : 20px;
     border-radius: 15px 15px 15px 15px;
 }
+
 aside:visited{
     color:#F2F2F2;
 }
+
 #icon-chart{
     font-size: 20px;
 }
+
 #head-popular{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .box-accomodation-popular{
     width: 25vw;
 }
+
 .text-accomodation-popular{
     margin-left:8px;    
     display: flex;
@@ -350,6 +369,7 @@ aside:visited{
     margin-top: 6px;
     margin-bottom: 6px;
 }
+
 .stars-popular{
     display: flex;
     justify-content:start;
@@ -367,6 +387,7 @@ aside:visited{
     color:#0065FC;
     font-size: 12px;
 }
+
 .card-popular{
     border: 1px;
     border-radius: 15px 15px 15px 15px;
@@ -387,12 +408,15 @@ aside:visited{
     margin-right: 10px;
     object-fit: cover;
 }
-/*Activités à Marseille*/
+
+/* Desktop : Activités à Marseille*/
+
 #activity{
     width: 100%;
     margin-left: 30px;
     margin-right: 30px;
 }
+
 #box-activity{
     display: flex;
     flex-direction: row;
@@ -412,12 +436,14 @@ aside:visited{
     margin-left: 0px;
     padding: 0px;
 }
+
 .card-activity img{
     width: 21vw;
     height: 24vw;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
+
 #minibox-one{
     display: flex;
     flex-direction: column
@@ -442,6 +468,7 @@ aside:visited{
     margin-bottom: 17px;
     padding: 0px;
 }
+
 #fortdepomegues-image{
     width: 22vw;
     height: 11.5vw;
@@ -462,6 +489,7 @@ aside:visited{
     margin-left: 13px;
     padding: 0px;
 }
+
 #ilesdufrioul-image{
     width: 22vw;
     height: 8vw;
@@ -483,6 +511,7 @@ aside:visited{
     margin-bottom: 13px;
     padding: 0px;
 }
+
 #notredamedelagarde-image{
     width: 22vw;
     height: 10vw;
@@ -503,13 +532,15 @@ aside:visited{
     margin-left: 13px;
     padding: 0px;
 }
+
 #parclongchamp-image{
     width: 22vw;
     height: 9.1vw;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
-/*Footer*/
+
+/* Desktop : Footer*/
 footer{
     width: 100%;
     background-color:#F2F2F2;
@@ -549,7 +580,6 @@ footer li{
 }
 
 /*fin de règle grande tablette*/
-
 /*Règles pour tablette à partir d'ici*/
 
 @media all and (min-width: 768px) and (max-width: 1024px) 
@@ -557,6 +587,7 @@ footer li{
     body{
         margin:0px
     }
+
     #container{ 
         margin-left: 30px;
     }
@@ -583,6 +614,7 @@ footer li{
         flex-wrap: wrap;
         margin-right: 0px;
     }
+
     #box-accomodation{
         order:2;
         width: 100%;
@@ -593,6 +625,7 @@ footer li{
     #container-hotel{
         width: 100%;
     }
+
     .accomodation-card{
         width: 26vw;
         height: 21vw;
@@ -610,12 +643,14 @@ footer li{
         margin-left: 30px;
         
     }
+
     #head-popular{
         margin-left: 30px;
     }
     #icon-chart{
         margin-right: 30px;
     }
+
     .card-popular{
         border: 1px;
         border-radius: 15px 15px 15px 15px;
@@ -630,6 +665,7 @@ footer li{
         display: flex;
         flex-direction: column;
     }
+
     .card-popular img{
         width: 100%;
         height: 60%;
@@ -653,21 +689,26 @@ footer li{
         margin-left: 0px;
         padding:0px;
     }
+
     #box-popular{
         display:flex;
         flex-direction: row;
     }
+
     #box-accomodation{
         padding:0px;
     }
+
     #activity{
         width: 100%;
         margin-left: 30px;
         margin-right: 30px;
     }
+
     .text-activity{
         margin-top: 5px;
     }
+
     #box-activity{
         display: flex;
         flex-direction: row;
@@ -687,12 +728,14 @@ footer li{
         margin-left: 0px;
         padding: 0px;
     }
+
     .card-activity img{
         width: 100%;
         height: 80%;
         border-radius: 15px 15px 0 0;
         object-fit: cover;
     }
+
     #minibox-one{
         display: flex;
         flex-direction: column
@@ -717,6 +760,7 @@ footer li{
         margin-bottom: 10px;
         padding: 0px;
     }
+
     #fortdepomegues-image{
         width: 100%;
         height: 70%;
@@ -737,6 +781,7 @@ footer li{
         margin-left: 12px;
         padding: 0px;
     }
+
     #ilesdufrioul-image{
         width: 100%;
         height: 60%;
@@ -758,6 +803,7 @@ footer li{
         margin-bottom: 12px;
         padding: 0px;
     }
+
     #notredamedelagarde-image{
         width: 100%;
         height: 10vw;
@@ -778,6 +824,7 @@ footer li{
         margin-left: 12px;
         padding: 0px;
     }
+
     #parclongchamp-image{
         width: 100%;
         height: 10vw;
@@ -808,10 +855,14 @@ footer li{
     .stars-popular{
         font-size: 8px;
     }
+
     #stars-popular-aucoeurdeleau{
         font-size: 8px;
     }
-
+    .text-hotel{
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
     #big-box-accomodation{
         flex-wrap: wrap;
         margin-right: 0px;
@@ -827,26 +878,29 @@ footer li{
     #container-hotel{
         width: 100%;
     }
+
     .accomodation-card{
         width: 22vw;
-        height: 21vw;
+        height: 25vw;
         font-size: 0.5em;
         padding-bottom: 20px;
     }
+
     aside{
         width: 100%;
         border-radius: 0px 0px 0px 0px;
         margin-left: 30px;
         
     }
+
     #head-popular{
         margin-left: 30px;
     }
+
     #icon-chart{
         margin-right: 30px;
     }
 
-    
     .card-popular{
         border: 1px;
         border-radius: 15px 15px 15px 15px;
@@ -861,6 +915,7 @@ footer li{
         display: flex;
         flex-direction: column;
     }
+
     .card-popular img{
         width: 100%;
         height: 60%;
@@ -871,7 +926,6 @@ footer li{
 
     .text-accomodation-popular{
         margin-left:8px;    
-    
     }
 
     #stars-popular-aucoeurdeleau{
@@ -884,10 +938,12 @@ footer li{
         margin-left: 0px;
         padding:0px;
     }
+
     #box-popular{
         display:flex;
         flex-direction: row;
     }
+
     #box-accomodation{
         padding:0px;
     }
@@ -897,9 +953,11 @@ footer li{
         margin-left: 30px;
         margin-right: 30px;
     }
+
     .text-activity{
         margin-top: 5px;
     }
+
     #box-activity{
         display: flex;
         flex-direction: row;
@@ -919,12 +977,14 @@ footer li{
         margin-left: 0px;
         padding: 0px;
     }
+
     .card-activity img{
         width: 100%;
         height: 80%;
         border-radius: 15px 15px 0 0;
         object-fit: cover;
     }
+
     #minibox-one{
         display: flex;
         flex-direction: column
@@ -949,6 +1009,7 @@ footer li{
         margin-bottom: 10px;
         padding: 0px;
     }
+
     #fortdepomegues-image{
         width: 100%;
         height: 70%;
@@ -969,6 +1030,7 @@ footer li{
         margin-left: 12px;
         padding: 0px;
     }
+
     #ilesdufrioul-image{
         width: 100%;
         height: 60%;
@@ -990,6 +1052,7 @@ footer li{
         margin-bottom: 12px;
         padding: 0px;
     }
+
     #notredamedelagarde-image{
         width: 100%;
         height: 10vw;
@@ -1010,6 +1073,7 @@ footer li{
         margin-left: 12px;
         padding: 0px;
     }
+
     #parclongchamp-image{
         width: 100%;
         height: 10vw;
@@ -1021,8 +1085,7 @@ footer li{
 
 /*Fin de règle grande smartphone*/
 /*Règles pour Smartphone à partir d'ici*/
-
-@media all and (min-width : 280px) and (max-width : 480px)
+@media all and (max-width : 480px)
 {
     #container{
         width: 100%;
@@ -1067,7 +1130,6 @@ footer li{
         display: flex;
         justify-content: center;
     }
-       
 
     nav ul :nth-child(2){
         width: 50%;
@@ -1085,6 +1147,7 @@ footer li{
         font-weight: bold;
         color: #0065FC;
     }
+
     #nav-accomodation{
         color: #0065FC;
         text-decoration: none;
@@ -1098,12 +1161,15 @@ footer li{
     #presentation{
         padding-left: 30px;
     }
+
     #box-research{
         width: 325px;
     }
+
     #research{
         display: none;
     }
+
     #research-button{
         display: inline;
     }
@@ -1115,40 +1181,57 @@ footer li{
     #text-filter{
         margin-right: 275px;
     }
+
     .iconfamily{
         margin-top: 10px;
         margin-right: 10px;
         margin-left: 0px;
     }
+
     #big-box-accomodation{
         flex-wrap: wrap;
         margin-right: 0px;
     }
+
     #box-accomodation{
         order:2;
         width: 100%;
         border-radius: 0px 0px 0px;
         background-color: white;
     }
+
     aside{
         width: 100%;
         border-radius: 0px 0px 0px 0px;
-        margin-left: 30px;
-        
+        margin-left: 30px;    
     }
 
     #head-popular{
         margin-left: 30px;
     }
+
     #icon-chart{
         margin-right: 30px;
     }
+
+     .stars{
+        font-size: 12px;
+    }
+
+    .stars-popular{
+        font-size: 12px;
+    }
+
+    #stars-popular-aucoeurdeleau{
+        font-size: 12px;
+    }
+
     .card-popular{
         width: 82vw;
         height: 40vw;
         margin-left: 30px;
         margin-right: 30px;
-        font-size: 0.75em;
+        font-size: 12px;
     }
 
     .card-popular-image{
@@ -1171,11 +1254,10 @@ footer li{
         border-radius: 15px 15px 15px 15px;
         background-color: white ;
         box-shadow:6px 6px 6px  #DCDCDC;
-        font-size: 0.75em;
+        font-size: 12px;
         width: 80vw;
         height: 50vw;
         padding: 5px 5px 5px 5px;
-
     }
 
     #accomodation{
@@ -1185,11 +1267,13 @@ footer li{
     #text-more{
         margin-left: 10px;
     }
+
     #box-activity{
         display: flex;
         flex-direction: column;
         margin-left: 10px;
     }
+    
     #activity-marseille{
         margin-left: 30px;
     }
