@@ -267,6 +267,9 @@ h1{
     text-decoration: none;
     color: #000000;
 }
+.link :visited{
+    color: #DEEBFF;
+}
 .accomodation-card{
     border: 1px;
     border-radius: 15px 15px 15px 15px;
@@ -299,7 +302,7 @@ aside{
     border-radius: 15px 15px 15px 15px;
 }
 aside:visited{
-    color:#F2F2F2;
+    color:#DEEBFF;
 }
 #icon-chart{
     font-size: 20px;
@@ -499,7 +502,7 @@ footer li{
     margin-top: 10px;
 }
 /*Fin de règle Desktop*/
-/*Début de règle grande tablette*/
+/*Début de règle grande tablette (1225-1285px)*/
 @media all and (min-width:1025px) and (max-width:1285px){
     .accomodation-card{
         width: 16vw;
@@ -507,14 +510,11 @@ footer li{
     }
 }
 /*fin de règle grande tablette*/
-/*Règles pour tablette à partir d'ici*/
+/*Règles pour tablette (768-1024px) à partir d'ici*/
 @media all and (min-width: 768px) and (max-width: 1024px) 
 {   
     body{
         margin:0px
-    }
-    #container{ 
-        margin-left: 30px;
     }
     #logo{
         padding-left: 20px;
@@ -525,7 +525,6 @@ footer li{
         margin-left: 10px;
     }
     #presentation-filter{
-        display: flex;
         flex-wrap: wrap;
     }
     .iconfamily{
@@ -539,7 +538,8 @@ footer li{
         order:2;
         width: 100%;
         border-radius: 0px 0px 0px;
-        background-color: white;
+        background-color: #FFFFFF;
+        padding:0px;
     }
     #container-hotel{
         width: 100%;
@@ -572,17 +572,12 @@ footer li{
         margin-right: 30px;
     }
     .card-popular{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white;
-        box-shadow:6px 6px 6px #DCDCDC;
         font-size: 10px;
         width: 26vw;
         height: 23vw;  
         padding: 5px 5px 15px 5px;
         margin-left: 10px;
         margin-right: 10px;
-        display: flex;
         flex-direction: column;
     }
     .card-popular img{
@@ -608,9 +603,6 @@ footer li{
         display:flex;
         flex-direction: row;
     }
-    #box-accomodation{
-        padding:0px;
-    }
     #activity{
         width: 100%;
         margin-left: 30px;
@@ -625,109 +617,59 @@ footer li{
         flex-flow: wrap;
     } 
     .card-activity{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
         font-size: 8px;
         width: 20vw;
         height: 32vw;
-        padding: 5px 5px 5px 5px;
         box-shadow:6px 6px 6px  #F2F2F2;
         margin-right: 12px;
-        margin-left: 0px;
-        padding: 0px;
     }
     .card-activity img{
         width: 100%;
         height: 80%;
-        border-radius: 15px 15px 0 0;
-        object-fit: cover;
     }
-    #minibox-one{
-        display: flex;
-        flex-direction: column
-    } 
-    #minibox-two{
-        display: flex;
-        flex-direction: column;
-    }    
     #fortdepomegues-card{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
         font-size: 8px;
         width: 21vw;
         height: 17vw; 
-        padding: 5px 5px 5px 5px;
-        box-shadow:6px 6px 6px  #F2F2F2;
         margin-right: 27px;
         margin-left: 12px;
         margin-bottom: 10px;
-        padding: 0px;
     }
     #fortdepomegues-image{
         width: 100%;
         height: 70%;
-        border-radius: 15px 15px 0 0;
-        object-fit: cover;
     }    
     #ilesdufrioul-card{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
         font-size: 8px;
         width: 21vw;
         height: 13vw;
-        padding: 5px 5px 5px 5px;
-        box-shadow:6px 6px 6px  #F2F2F2;
         margin-right: 27px;
         margin-left: 12px;
-        padding: 0px;
     }
     #ilesdufrioul-image{
         width: 100%;
         height: 60%;
-        border-radius: 15px 15px 0 0;
-        object-fit: cover;
     }    
     #notredamedelagarde-card{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
         font-size: 8px;
         width: 21vw;
         height: 15vw; 
-        padding: 5px 5px 5px 5px;
-        box-shadow:6px 6px 6px  #F2F2F2;
-        margin-right: 0px;
         margin-left: 12px;
         margin-bottom: 12px;
-        padding: 0px;
     }
     #notredamedelagarde-image{
         width: 100%;
         height: 10vw;
-        border-radius: 15px 15px 0 0;
-        object-fit: cover;
     }    
     #parclongchamp-card{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
         font-size: 8px;
         width: 21vw;
-        height: 15vw; 
-        padding: 5px 5px 5px 5px;
-        box-shadow:6px 6px 6px  #F2F2F2;
-        margin-right: 0px;
+        height: 15vw;
         margin-left: 12px;
-        padding: 0px;
     }
     #parclongchamp-image{
         width: 100%;
         height: 10vw;
-        border-radius: 15px 15px 0 0;
-        object-fit: cover;
     }
 }
 /*fin de règle pour tablette*/
@@ -787,17 +729,11 @@ footer li{
         margin-right: 30px;
     }
     .card-popular{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white;
-        box-shadow:6px 6px 6px #DCDCDC;
         font-size: 0.5em;
         width: 23vw;
         height: 34vh;  
-        padding: 5px 5px 15px 5px;
         margin-left: 10px;
         margin-right: 10px;
-        display: flex;
         flex-direction: column;
     }
     .card-popular img{
@@ -805,7 +741,6 @@ footer li{
         height: 60%;
         border-radius: 15px 15px 0 0;
         margin: 0px;
-        object-fit: cover;
     }
     .text-accomodation-popular{
         margin-left:8px;    
@@ -840,109 +775,59 @@ footer li{
         flex-flow: wrap;
     }    
     .card-activity{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
         font-size: 6px;
         width: 18vw;
         height: 30vw;
-        padding: 5px 5px 5px 5px;
-        box-shadow:6px 6px 6px  #F2F2F2;
-        margin-right: 12px;
-        margin-left: 0px;
-        padding: 0px;
+        margin-right: 12px
     }
     .card-activity img{
         width: 100%;
         height: 80%;
-        border-radius: 15px 15px 0 0;
-        object-fit: cover;
     }
-    #minibox-one{
-        display: flex;
-        flex-direction: column
-    }    
-    #minibox-two{
-        display: flex;
-        flex-direction: column;
-    }    
     #fortdepomegues-card{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
         font-size: 6px;
         width: 19vw;
         height: 15vw; 
-        padding: 5px 5px 5px 5px;
-        box-shadow:6px 6px 6px  #F2F2F2;
         margin-right: 27px;
         margin-left: 12px;
         margin-bottom: 10px;
-        padding: 0px;
     }
     #fortdepomegues-image{
         width: 100%;
         height: 70%;
-        border-radius: 15px 15px 0 0;
-        object-fit: cover;
     }    
     #ilesdufrioul-card{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
         font-size: 6px;
         width: 19vw;
         height: 11vw;
-        padding: 5px 5px 5px 5px;
-        box-shadow:6px 6px 6px  #F2F2F2;
         margin-right: 27px;
         margin-left: 12px;
-        padding: 0px;
     }
     #ilesdufrioul-image{
         width: 100%;
         height: 60%;
-        border-radius: 15px 15px 0 0;
-        object-fit: cover;
     }    
     #notredamedelagarde-card{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
         font-size: 6px;
         width: 19vw;
         height: 13vw; 
-        padding: 5px 5px 5px 5px;
-        box-shadow:6px 6px 6px  #F2F2F2;
         margin-right: 0px;
         margin-left: 12px;
         margin-bottom: 12px;
-        padding: 0px;
     }
     #notredamedelagarde-image{
         width: 100%;
         height: 10vw;
-        border-radius: 15px 15px 0 0;
-        object-fit: cover;
     }    
     #parclongchamp-card{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
         font-size: 6px;
         width: 19vw;
         height: 13vw; 
-        padding: 5px 5px 5px 5px;
-        box-shadow:6px 6px 6px  #F2F2F2;
-        margin-right: 0px;
         margin-left: 12px;
-        padding: 0px;
     }
     #parclongchamp-image{
         width: 100%;
         height: 10vw;
-        border-radius: 15px 15px 0 0;
-        object-fit: cover;
     }
 }
 /*Fin de règle grande smartphone*/
@@ -1084,10 +969,6 @@ footer li{
         padding:0px
     }
     .accomodation-card{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
-        box-shadow:6px 6px 6px  #DCDCDC;
         font-size: 12px;
         width: 88vw;
         height: 50vw;
@@ -1108,10 +989,6 @@ footer li{
         margin-left: 30px;
     }
     .card-activity{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
-        box-shadow:6px 6px 6px  #DCDCDC;
         font-size: 0.7em;
         width: 90%;
         height: 200px;
@@ -1122,14 +999,9 @@ footer li{
         height: 70%;
     }
     #fortdepomegues-card{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
-        box-shadow:6px 6px 6px  #DCDCDC;
         font-size: 0.7em;
         width: 90%;
         height: 200px;
-        padding: 5px 5px 5px 5px;
         margin-left: 0px;
         margin-right: 0px;
     }
@@ -1138,14 +1010,9 @@ footer li{
         height: 70%;
     }
     #ilesdufrioul-card{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
-        box-shadow:6px 6px 6px  #DCDCDC;
         font-size: 0.7em;
         width: 90%;
         height: 200px;
-        padding: 5px 5px 5px 5px;
         margin-left: 0px;
         margin-right: 0px;
     }
@@ -1154,14 +1021,9 @@ footer li{
         height: 70%;
     }
     #notredamedelagarde-card{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
-        box-shadow:6px 6px 6px  #DCDCDC;
         font-size: 0.7em;
         width: 90%;
         height: 200px;
-        padding: 5px 5px 5px 5px;
         margin-left: 0px;
         margin-right: 0px;
     }
@@ -1170,14 +1032,9 @@ footer li{
         height: 70%;
     }
     #parclongchamp-card{
-        border: 1px;
-        border-radius: 15px 15px 15px 15px;
-        background-color: white ;
-        box-shadow:6px 6px 6px  #DCDCDC;
         font-size: 0.7em;
         width: 90%;
         height: 200px;
-        padding: 5px 5px 5px 5px;
         margin-left: 0px;
         margin-right: 0px;
     }
