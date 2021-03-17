@@ -513,6 +513,10 @@ footer li{
         width: 16vw;
         height: 22vw;
     }
+    .text-activity{
+        font-size: 14px;
+        margin-top: 7px;
+    }
 }
 /*fin de règle grande tablette*/
 /*Règles pour tablette (768-1024px) à partir d'ici*/
